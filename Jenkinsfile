@@ -7,7 +7,7 @@ pipeline {
     agent any
     stages {
 
-        stage("paso 1"){
+        stage("paso 1:webhook"){
             steps {
                 script {
                 sh "echo 'Hello, World Usach 2021!'"
