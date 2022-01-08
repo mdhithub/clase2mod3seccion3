@@ -6,7 +6,7 @@ def jsonParse(def json) {
 pipeline {
     agent any
     stages {
-        stage("Paso 1: Compliar Springboot"){
+        stage("Paso 1: Compliar Springboot otro intento"){
             steps {
                 script {
                 sh "echo 'Compile Code!'"
