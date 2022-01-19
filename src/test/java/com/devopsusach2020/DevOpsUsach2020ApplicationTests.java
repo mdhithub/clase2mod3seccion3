@@ -13,4 +13,10 @@ class DevOpsUsach2020ApplicationTests {
         Assertions.assertThat(correcto).isEqualTo("hola");
 	}
 
+	@Test
+	void contextLoads1() {
+		String correcto = "hola";
+        Assertions.assertThat(correcto).isEqualTo("hola");
+	}
+
 }
